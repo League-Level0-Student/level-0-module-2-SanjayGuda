@@ -6,7 +6,16 @@ public class StringsCannotAdd {
 
 		// 1) Make a main method that includes all the steps below…. 
 		public static void main(String[] args) {
-			
+			String fourAsString = JOptionPane.showInputDialog("Enter number 4");
+			String sixAsString = JOptionPane.showInputDialog("Enter number 6");
+			JOptionPane.showMessageDialog(null, fourAsString + sixAsString);
+			String fiveAsString = JOptionPane.showInputDialog("Enter number 5");
+			JOptionPane.showMessageDialog(null, fourAsString + sixAsString + fiveAsString);
+			int x = Integer.parseInt(fourAsString);	
+			int y = Integer.parseInt(sixAsString);
+			int o = Integer.parseInt(fiveAsString);
+			JOptionPane.showMessageDialog(null, x + y);
+			JOptionPane.showMessageDialog(null, x + y + o);
 		}
 			// 2) Ask the user to enter number 4 and hold it in the variable fourAsString 
 			

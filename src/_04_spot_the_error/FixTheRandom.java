@@ -13,7 +13,7 @@ public class FixTheRandom {
 		Random random = new Random();
 		
 		int numnber = random.nextInt(5);
-		
+		numnber = numnber +5;
 		if (numnber == 5) {
 			System.out.println("FIVE");
 		} else if (numnber == 6) {
